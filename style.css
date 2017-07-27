@@ -1,0 +1,119 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+html {
+  font-size: 14px;
+  font-family: raleway, sans-serif;
+  line-height: 25px;
+  color: #313131;
+  background-color: #fcfcfc;
+}
+
+.body-width {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(typewriter-banner.jpg);
+  height: 400px;
+  background-position: center;
+  border-bottom: 2px solid #BDB8A7;
+}
+
+h1 {
+  font-size: 280%;
+  font-family: poppins;
+  text-align: center;
+  color: #85806f;
+  padding-top: 280px;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+h2 {
+  font-size: 200%;
+  font-family: poppins;
+  color: #aaa596;
+}
+
+section {
+  margin: 5%;
+  padding: 2.5% 5%;
+  background-color: #F2F2F2;
+  border-bottom: 2px dotted #BDB8A7;
+}
+
+.text-container {
+  margin: 5%;
+  }
+
+.body-text-container {
+  font-weight: 200;
+  border: 2px solid #BDB8A7;
+  padding:2.5%;
+}
+
+.headings {
+  padding-bottom: 5%;
+}
+
+.call-to-action {
+  padding-top: 5%;
+  font-size: 110%;
+  text-align: right;
+  }
+
+/*------------------ LINKS --------------------*/
+
+a {
+  text-decoration: none;
+  -webkit-transition: Background-color 0s, border 0s, color 0.5s;
+  transition: Background-color 0s, border 0s, color 0.5s;
+}
+
+.body-link:link,
+.body-link:visited {
+  font-size: 110%;
+  color: #fc5c5c;
+}
+
+.body-link:hover,
+.gbody-link:active {
+  color: #ff1260;
+}
+
+/*------------------ FOOTER --------------------*/
+
+footer {
+  font-size: 200%;
+  border-top: 2px solid #BDB8A7;
+  height: 200px;
+  background-color: #383838;
+}
+
+.footer-nav {
+  list-style: none;
+  text-align: center;
+  padding-top: 85px;
+}
+.footer-nav li {
+  display: inline-block;
+  padding: 0 5%;
+}
+
+footer a {
+  color: #fc5c5c;
+}
+
+footer a:hover {
+  color: #fcfcfc;
+  font-weight: 200;;
+}
